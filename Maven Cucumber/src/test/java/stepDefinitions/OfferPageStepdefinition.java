@@ -49,5 +49,6 @@ public class OfferPageStepdefinition {
         Thread.sleep(2000);
         Assert.assertEquals(testContextSetup.landingPageProductName, testContextSetup.offerPageProductName);
         testContextSetup.driver.quit();
+        System.out.println("Puts");
     }
 }
